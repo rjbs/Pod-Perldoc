@@ -126,6 +126,8 @@ Rather like Getopt::Std's getopts:
 =item If there's no handle_unknown_option, then we just warn, and then increment
    the error counter
 
+=back
+
 The return value of Pod::Perldoc::GetOptsOO::getopts is true if no errors,
 otherwise it's false.
 
